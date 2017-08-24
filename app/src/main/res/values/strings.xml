@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Twitter Bot</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Twitter Bot</string>
+    <string name="desc_slide1">Automate your twitter experience</string>
+    <string name="title_slide2">Got new Followers !!</string>
+    <string name="desc_slide2">Now automatically greet them</string>
+    <string name="title_slide3">And Much More ...</string>
+    <string name="desc_slide3">Get tweets for birthday, quotes, trivia and send bot requests for info on your favorite tv, movies and celebrities.</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

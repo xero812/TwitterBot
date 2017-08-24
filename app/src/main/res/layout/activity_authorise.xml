@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_screen2"
+    android:padding="40dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/consumer"
+        android:drawableLeft="@drawable/authorize"
+        android:hint="Consumer Key"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/consumerSecret"
+        android:drawableLeft="@drawable/authorize"
+        android:hint="Consumer Secret"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#ffffff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/access"
+        android:drawableLeft="@drawable/authorize"
+        android:hint="Access Key"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/accessSecret"
+        android:drawableLeft="@drawable/authorize"
+        android:hint="Access Secret"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Get Started"
+        android:id="@+id/button"
+        android:background="@drawable/selector_xml_btn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="checkGetStarted"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Forgot password?"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFF"
+        />
+
+</LinearLayout>
